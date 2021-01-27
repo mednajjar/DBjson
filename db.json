@@ -1,5 +1,6 @@
 
-    [
+    {
+        "journal":[
     {
         "id":1,
         "name":"Vestibulum non tempus lacus",
@@ -41,4 +42,4 @@
 
     }
 ]
-
+}
