@@ -2,7 +2,7 @@
   publish = "public"
 
 [[redirects]]
-  from = "/api/"
+  from = "/api/*"
   to = "/db.json"
   status = 302
   headers = { Access-Control-Allow-Origin = "*", Authorization = "Bearer api-key"}
