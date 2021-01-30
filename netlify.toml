@@ -8,6 +8,6 @@
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "/*"
+  for = "/db.json"
     [headers.values]
     Access-Control-Allow-Origin = "*"
