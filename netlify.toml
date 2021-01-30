@@ -2,14 +2,14 @@
   publish = "public"
 
 [[redirects]]
-  from = "/api/*"
+  from = "/*"
   to = "/db.json"
-  status = 302
+  status = 200
   headers = { Access-Control-Allow-Origin = "*", Authorization = "Bearer api-key"}
 
 [[headers]]
  
-  for = "/api/*"
+  for = "/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
     Authorization = "Bearer api-key"
